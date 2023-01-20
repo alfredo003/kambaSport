@@ -1,0 +1,31 @@
+.message {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+    -webkit-border-radius: var(--radius-medium);
+    -moz-border-radius: var(--radius-medium);
+    border-radius: var(--radius-medium);
+    background-color:#383838;
+    font-weight: var(--weight-bold);
+}
+
+.message.success {
+    color: #fff;
+    background-color: var(--color-green);
+}
+
+.message.info {
+    color: #fff;
+    background-color: var(--color-blue);
+}
+
+.message.warning {
+    color: #fff;
+    background-color: var(--color-yellow);
+}
+
+.message.error {
+    color: #fff;
+    background-color: var(--color-red);
+}
