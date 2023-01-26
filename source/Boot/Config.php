@@ -21,7 +21,7 @@ define("CONF_URL_ADMIN", "/admin");
 define("CONF_SITE_NAME", "Kamba Sport");
 define("CONF_SITE_TITLE", "Sistema de Controle");
 define("CONF_SITE_DESC",
-    " CAPITANIA ONLINE DELEGAÇÃO MARÍTIMA DO TÔMBWA ");
+    " Sistema de Controle de Ginásio");
 define("CONF_SITE_LANG", "pt");
 define("CONF_SITE_DOMAIN", " ");
 define("CONF_NUMBER_PHONE", "924463221");
@@ -59,7 +59,7 @@ define("CONF_PASSWD_OPTION", ["cost" => 10]);
  */
 define("CONF_VIEW_PATH", __DIR__ . "/../../shared/views");
 define("CONF_VIEW_EXT", "php");
-define("CONF_VIEW_THEME", "portalApp");
+define("CONF_VIEW_THEME", "App");
 
 /**
  * UPLOAD
